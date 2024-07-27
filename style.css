@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    background-color: rgb(122, 98, 98);
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-bottom:50px ;
+
+}
+.logo{
+    margin-bottom: 100px;
+    width: 1100px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    background-color: rgb(122, 98, 98);
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px;
+}
+
+article {
+    background-color: rgb(100, 100, 100);
+    padding: 20px;
+    width: 400px;
+    margin:10px ;
+    text-align: center;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    margin-top: 500px;
+}
+
+footer{
+    width: 1100px;
+    background-color: rgb(122, 98, 98);
+    margin-top: 50px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 25px 0px;
+}
+footer p{
+    
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
